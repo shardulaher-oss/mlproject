@@ -1,3 +1,53 @@
-<h1>
-    This is My Index page for this Project
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="refresh" content="0;url=/predictdata">
+<title>ScoreIQ</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #0b1120;
+    color: #e8e4da;
+    font-family: 'DM Sans', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .center {
+    text-align: center;
+    animation: fadeIn 0.5s ease;
+  }
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #c9a84c;
+    margin-bottom: 12px;
+  }
+  p { color: #8a94a8; font-size: 14px; }
+  a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #c9a84c;
+    text-decoration: none;
+    font-size: 13px;
+    border: 1px solid rgba(201,168,76,0.3);
+    padding: 10px 24px;
+    border-radius: 100px;
+    transition: background 0.2s;
+  }
+  a:hover { background: rgba(201,168,76,0.1); }
+  @keyframes fadeIn { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+</style>
+</head>
+<body>
+<div class="center">
+  <h1>ScoreIQ</h1>
+  <p>Redirecting to the predictor…</p>
+  <a href="/predictdata">Open predictor →</a>
+</div>
+</body>
+</html>
